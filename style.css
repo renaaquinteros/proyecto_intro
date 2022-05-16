@@ -1,0 +1,141 @@
+ul.navbar{
+    list-style-type:none;
+    padding: 0;
+    margin: 15px;
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    width : 18em;}
+
+.uvlogo{
+	width: 200px;
+	height: 100px;
+	margin-left: 1100px;
+
+}
+ul.navbar li{
+    font-family:Verdana;
+    background: rgb(232, 156, 74);
+    margin: 0.5em 0;
+    padding: 0.9em;
+    border-right: 1em solid rgb(174, 147, 14) }
+ul.navbar a {
+    text-decoration: none }
+a:link {
+    color: rgb(207, 132, 46) }
+a:visited {
+    color: rgb(255, 255, 255) } 
+    address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
+
+h2 {
+	text-align: center;
+	margin: 40px;
+	text-align: center;
+	font-size: auto;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #cc922d;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.principal {
+    width: auto;
+    padding: auto;
+    border: 1px solid rgb(206, 140, 40);
+    margin:70px;
+	background-color: #a26e33;
+}
+
+.centro{
+    display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 50%;
+    
+}
+nav a {
+	line-height: auto;
+	height: 100%;
+	font-size: 10px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: auto;
+}
+a:nth-child(2) {
+	width: auto;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: auto;
+	left: auto;
+	background-color: #a6801e;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: auto;
+	left: auto;
+	background-color: #ac7422;
+}
+
+body {
+	font-size: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: #855b12;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+	margin: 40px;
+	text-align: center;
+	font-size: auto;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #614410;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.new-div {
+    background-color:#855a16;
+    width: auto;
+    padding: 25px;
+    border: 1px solid rgb(119, 85, 16);
+    margin:70px;
+}
+table  {
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 5px;
+	background: rgb(157, 106, 36) url("gradient.gif") bottom left repeat-x;
+	color: #fff;
+ }
+ td, th {
+	background: #fff;
+	color: rgb(150, 91, 42);
+ }
+ h3 {
+    background-color:#ffffff;
+    width: auto;
+    padding: 25px;
+    border: 1px solid rgb(140, 112, 37);
+    margin:70px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
